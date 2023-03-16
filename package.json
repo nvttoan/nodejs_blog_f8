@@ -1,0 +1,35 @@
+{
+  "name": "blog_f8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvttoan/nodejs_blog_f8.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "f8",
+    "nodejs",
+    "blog",
+    "f8",
+    "nodejs"
+  ],
+  "author": "nvttoan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvttoan/nodejs_blog_f8/issues"
+  },
+  "homepage": "https://github.com/nvttoan/nodejs_blog_f8#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
