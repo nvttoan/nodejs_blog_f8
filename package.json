@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "beautiful": "prettier --single-quote --trailing-comma all --write \"src/*/*.{js,json,scss}\"",
     "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,7 +30,11 @@
   "homepage": "https://github.com/nvttoan/nodejs_blog_f8#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "express-handlebars": "^7.0.2"
+    "express-handlebars": "^7.0.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "mongoose": "^7.0.2",
+    "prettier": "^2.8.4"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
